@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+#scene {
+    width: 800px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom:-15px;
+    background: url(images/background.jpg);
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+
+#canvas {
+    position: absolute;
+    width:800px;
+    height:120px;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: tan;
+    border: 6px solid lightblue;
+}
+
+
+.clickable {
+    cursor: pointer;
+}
+
+
+#mermaid {
+    background-image: url(images/mermaid.svg);
+    width: 120px;
+    height: 288px;
+    position: absolute;
+    bottom:-34px;
+    left:0;
+    z-index: 1000;
+    background-repeat: no-repeat;
+}
+
+
+#starfish {
+    background-image: url(images/starfish.svg);
+    width: 100px;
+    height: 124px;
+    position: absolute;
+    left: 120px;
+    bottom: 120px;
+    background-repeat: no-repeat;
+}
+
+#beachball{
+  background-image: url(images/beachball.svg);
+  width: 92px;
+  height: 124px;
+  position: absolute;
+  left: 240px;
+  bottom: 108px;
+  background-repeat: no-repeat;
+}
+
+
+#lifesaver {
+    background-image: url(images/lifesaver.svg);
+    width: 165px;
+    height: 124px;
+    position: absolute;
+    left: 340px;
+    bottom: 110px;
+    background-repeat: no-repeat;
+}
+
+#surfboard{
+  background-image: url(images/surfboard.svg);
+  width: 100px;
+  height: 144px;
+  position: absolute;
+  left: 485px;
+  bottom: 102px;
+  background-repeat: no-repeat;
+}
+
+#seahorse{
+  background-image: url(images/seahorse.svg);
+  width: 105px;
+  height: 144px;
+  position: absolute;
+  left: 600px;
+  bottom: 102px;
+  background-repeat: no-repeat;
+}
+
+audio:hover , audio:focus , audio:active {
+//*box-shadow: 15px 15px 20px rgba(0,0,0,0.4);*//
+transform:scale(1);
+
+ }
+
+ audio {
+padding-top: 180px;
+padding-left:10px;
+border-radius: 7px;
+ }
+
+
+body {background: lightblue;}
